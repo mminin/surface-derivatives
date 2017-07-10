@@ -8,3 +8,5 @@ Also this code is a lot simpler and shorter than ArcGIS plugin version.
 Perhaps the most importaint dependency here is Python-GDAL bindings in osgeo,
 install thouse via http://trac.osgeo.org/osgeo4w/wiki
 Use advanced installation, and make sure to select python libraries (skipped by default), particularly python-gdal-dev and scipy.
+
+Scipy provides handles to ITK subroutines, which (i suspect) is what does the convolution.
