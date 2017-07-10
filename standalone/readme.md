@@ -10,7 +10,7 @@ install thouse via http://trac.osgeo.org/osgeo4w/wiki
 
 If working from Windows, you should use "OSGeo4W Shell" to run this script.
 
-If default installation does not work, use advanced installation, and make sure to select python libraries (skipped by default), particularly python-gdal-dev and scipy. Scipy provides handles to ITK subroutines, which (i suspect) is what does the convolution.
+If default installation does not work, use advanced installation, and make sure to select python libraries (might get skipped by default), particularly python-gdal-dev and scipy. Scipy provides handles to ITK subroutines, which (i suspect) is what does the convolution.
 
 To run this script, say from either Linux terminal or OSGeo4W shell:
 
