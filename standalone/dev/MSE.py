@@ -52,6 +52,7 @@ SSEgX=(FDx*FDx*khx*(khx+1)*N*N)/3.
 SSEgY=(FDy*FDy*khy*(khy+1)*N*N)/3.
 
 KerSum=np.ones([kx,ky])
+array=array.astype(np.float64)
 arraySq=array*array
 arraySqSum=ndimage.convolve(arraySq,KerSum)
 arraySum=ndimage.convolve(array,KerSum)
